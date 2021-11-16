@@ -12,7 +12,7 @@
 	<artifactId>kunfish</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>kunfish</name>
-	<description>Inspectional coding for leaning</description>
+	<description>Inspectional coding for learning</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -25,7 +25,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
