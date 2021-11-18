@@ -29,7 +29,6 @@ public class Localdate {
     void demo_dayForwardOrBack() {
         int days = 300;
         LocalDate programmersStartDay = LocalDate.of(2016, 8, 15);
-        // September 13, but in a leap year it would be September 12
         System.out.println("programmersStartDay + " + days +" days: " + programmersStartDay.plusDays(days) );
 
         System.out.println(LocalDate.of(2016, 1, 31).plusMonths(1));
